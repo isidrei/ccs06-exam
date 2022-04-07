@@ -9,7 +9,7 @@
 <body>
     <div class= "container-sm">
     <h1> Please Enter your Names </h1>
-    <form action="/enter-grades" methods="POST">
+    <form action="/enter-grades" method="POST">
         @csrf
         @for ($i = 1; $i <=5; $i++)
         <div class="row">
@@ -19,7 +19,7 @@
 @endfor
 <hr/>
 <div class="row">
-    <button class="btn btn-primary btn-lg"> Save Students </button>
+    <button class="btn btn-primary btn-lg"> Click to Continue </button>
 </div>
 </form>
 </div>
@@ -30,3 +30,4 @@
 
 </body>
 </html>
+
